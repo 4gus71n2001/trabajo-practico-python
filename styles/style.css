@@ -1,0 +1,62 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto+Slab&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Slab',Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.cabecera{
+    display: flex;
+    margin:0;
+    background-color: #ffc803;
+    width: 100%;
+    height: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+
+    margin: 1rem;
+    line-height: 0.5rem;
+}
+.logo img{
+    width: 3rem;
+}
+.ingresar{
+    margin: 1rem;
+    background-color:#ffefb5 ;
+    border-radius: 4px ;
+    padding: 0.2rem;
+    text-decoration: none;
+}
+.deportes{
+    display: flex;
+    background-color: aliceblue;
+    height: 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.deportes a{
+
+    margin: 0.7rem;
+    text-decoration: none;
+}
+/* SECTION */
+.section{
+
+    background-color:#ffefb5 ;
+    
+}
+.publicidad{
+    background-image: url(images/deportes-jpg);
+    margin: 2rem;
+    width: 100%;
+    height: 2rem;
+    
+}
+
