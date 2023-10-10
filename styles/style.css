@@ -123,3 +123,30 @@ body{
     color: rgb(238, 230, 230);
     margin-bottom: 3rem; 
 }
+.Futbol_3{
+    background-image: url(../Images/velez\ .jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    color: rgb(238, 230, 230);
+    margin-bottom: 3rem;
+}
+.basquet_3{
+    background-image: url(../Images/basquet\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    color: rgb(238, 230, 230);  
+    margin-bottom: 3rem; 
+}
+.Rugby_3{
+    background-image: url(../Images/australia\ rugby.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    color: rgb(238, 230, 230);
+    margin-bottom: 3rem; 
+}
