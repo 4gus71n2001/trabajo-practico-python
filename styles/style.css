@@ -54,8 +54,9 @@ body{
 }
 #publicidad{
     margin: 1rem;
-    background-image: url(../Images/deportes.jpg);
+    background-color: rgb(196, 185, 185);
     background-size: cover;
+    
     height: 4rem;
 
 }
@@ -74,20 +75,51 @@ body{
 #informacion p,h1{
     margin: 1rem;
 }
+#informacion span{
+    color: #319190;
+}
 .basquet_1{
     background-image: url(../Images/basquet\ 1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 35rem;
-    color: rgb(238, 230, 230);   
+    color: rgb(238, 230, 230);  
+    margin-bottom: 3rem; 
 }
 .Rugby_1{
-    background-image: url(../Images//lesion-rugby.jpg);
+    background-image: url(../Images/lesion-rugby.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 35rem;
     color: rgb(238, 230, 230);
+    margin-bottom: 3rem; 
 }
-
+.Futbol_2{
+    background-image: url(../Images/messi\ titular.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    color: rgb(238, 230, 230);
+    margin-bottom: 3rem;
+}
+.basquet_2{
+    background-image: url(../Images/liga-femenina-basquet.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    color: rgb(238, 230, 230);  
+    margin-bottom: 3rem; 
+}
+.Rugby_2{
+    background-image: url(../Images/irlanda-rugby.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    color: rgb(238, 230, 230);
+    margin-bottom: 3rem; 
+}
