@@ -58,4 +58,18 @@ body{
     height: 4rem;
 
 }
+.Futbol_1{
+    background-image: url(../Images/boca\ libertadores.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    color: rgb(238, 230, 230);
+}
+.titulo_futbol_1{
+    background-color: rgba(0, 0, 0, 0.274)
+}
+.titulo_futbol_1 p,h1{
+    margin: 1rem;
+}
 
