@@ -150,6 +150,24 @@ body{
     color: rgb(238, 230, 230);
     margin-bottom: 3rem; 
 }
+.basquet_NBA{
+    background-image: url(../Images/Basquet_NBA.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    color: rgb(238, 230, 230);  
+    margin: auto; 
+}
+.basquet_NBA2{
+    background-image: url(../Images/Basquet_NBA2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    color: rgb(238, 230, 230);  
+    margin-bottom: 3rem;
+    }
 /* FOOTER */
 footer{
 background-color:rgb(38, 13, 13) ;   
