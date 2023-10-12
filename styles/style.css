@@ -34,6 +34,10 @@ body{
     background-color:#ffefb5 ;
     
 }
+.nombre_noticia p{
+    margin: 0.1rem 0 0.1rem 0.5rem;
+    font-weight: bold;
+}
 
 /* FUTBOL */
 .Fut_1{
@@ -200,19 +204,19 @@ body{
     border-radius: 10px;
 }
 .ContenedorFutbol{
-    background-color: #c6d316;
+    background-color: #84fffd;
     width: 100%;
     height: auto;
     margin: 3%;
 }
 .ContenedorBasquet{
-    background-color: #c6d316;
+    background-color:#84fffd;
     width: 100%;
     height: auto;
     margin: 3%;
 }
 .ContenedorRugby{
-    background-color: #c6d316;
+    background-color: #84fffd;
     width: 100%;
     height: auto;
     margin: 3%;
@@ -253,8 +257,8 @@ footer{
         font-size: 10px;
     }
     /* FOOTER */
-}
-@media only screen and (min-width: 570px ) {
+} /* TERMINADO */
+@media only screen and (min-width: 571px ) {
     /*HEADER*/
     .cabecera{
         display: flex;
@@ -294,7 +298,6 @@ footer{
        font-size: 120%;
    }
    .deportes a{
-   
        margin: 0.7rem;
        text-decoration: none;
    }
@@ -305,11 +308,82 @@ footer{
 /*SECTION*/
 .noticias_deportes{
     display: grid;
+    grid-template-areas:
+    'futbol rugby' 
+    'futbol rugby'
+    'basquet basquet';
+    gap: 1rem;
+    padding-top: 0!important;
+    padding: 1rem;
+
+}
+.ContenedorFutbol{
+    background-color: #84fffd;
+}
+.ContenedorBasquet{
+    background-color: #84fffd;
+}
+.ContenedorRugby{
+    background-color: #84fffd;
+}
+.contenedor1{
+    display: flex;
+    grid-area: futbol;
+    background-color: #dacc9a;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.contenedor2{
+    display: flex;
+    background-color: #dacc9a;
+    grid-area: basquet;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.contenedor3{
+    display: flex;
+    background-color: #dacc9a;
+    grid-area: rugby;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.ContenedorFutbol div a img{
+    width: 100%;
+    height: auto;
+}
+.ContenedorBasquet div a img{
+    width: 100%;
+    height: auto;
+}
+.ContenedorRugby div a img{
+    width: 100%;
+    height: auto;
 }
 /*SECTION*/
+/* FOOTER */
+footer{
+    background-color:rgb(38, 13, 13) ;   
+    }
+    .redes_sociales{
+        display: flex;
+        background-color: #ffc803;
+        align-items: center center;
+        justify-content: space-around;
+    }
+    footer img{
+         width: 2.8rem; 
+         margin-top: 20%;
+    }
+    .integrantes{
+        color: #ffefb5;
+        font-size: 10px;
+    }
+    /* FOOTER */
 
 
-} 
-@media only screen and (min-width: px ) {
-
+} /* EN PROCESO */
+@media only screen and (min-width: 820px ) {
+    
+}
+@media only screen and (min-width: 820px ) {
 }
