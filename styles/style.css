@@ -120,7 +120,7 @@ body{
  }
 
 
-@media only screen and (max-width: 890px ) {
+@media only screen and (max-width: 570px ) {
 /* HEADER */
 .cabecera{
      display: flex;
@@ -132,7 +132,6 @@ body{
      align-items: center;
 }
 .logo{
-
     display: flex;
     margin: 1rem;
     line-height: 0.5rem;
@@ -172,49 +171,58 @@ body{
 /* HEADER */
 /* SECTION */
 .noticias_deportes{
-    display: grid;
-    background-color: #ffc803;
-    margin: 1rem;
-    padding: 1rem;
-    grid-template-areas: 'contenedor1 contenedor2';
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #ffefb5;
+    justify-content: space-between;
+    flex-wrap: wrap; 
 }
 .contenedor1{
-    width: 120%;
-    grid-area: contenedor1;
-    margin: 0px;
-    display: grid;
-    background-color: red;
+    display: flex;
+    background-color: #dacc9a;
+    margin: 0% 3% 3% 3%;
+    align-items: center;
 }
 .contenedor2{
     display: flex;
-    width: 80%;
-    grid-area: contenedor2;
-    margin: 0px;
-    display: grid;
-    background-color: rgb(89, 0, 255);
-    
+    background-color: #dacc9a;
+    margin: 0% 3% 3% 3%;
     align-items: center;
-    
 }
-.minicontenedor1{
+.contenedor3{
+    display: flex;
+    background-color: #dacc9a;
+    margin: 0% 3% 3% 3%;
+    align-items: center;
+}
+.ContenedorFutbol{
     background-color: #319190;
-    margin:1rem;
+    width: 100%;
+    height: auto;
+    margin: 3%;
 }
-.minicontenedor2{
+.ContenedorBasquet{
     background-color: aqua;
-    margin:1rem;
+    width: 100%;
+    height: auto;
+    margin: 3%;
 }
+.ContenedorRugby{
+    background-color: rgb(255, 0, 242);
+    width: 100%;
+    height: auto;
+    margin: 3%;
+}
+.ContenedorFutbol div a img{
 
-/* .futbol_1{
-    background-image: url(../Images/boca\ libertadores.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 35rem;
-    color: rgb(238, 230, 230);
-    margin-bottom: 3rem;
     width: 100%;
 }
+
+.futbol1{}
+
+}
+/*
 .basquet_1{
     background-image: url(../Images/basquet\ 1.jpg);
     background-size: cover;
