@@ -183,118 +183,56 @@ body{
     background-color: #dacc9a;
     margin: 0% 3% 3% 3%;
     align-items: center;
+    border-radius: 10px;
 }
 .contenedor2{
     display: flex;
     background-color: #dacc9a;
     margin: 0% 3% 3% 3%;
     align-items: center;
+    border-radius: 10px;
 }
 .contenedor3{
     display: flex;
     background-color: #dacc9a;
     margin: 0% 3% 3% 3%;
     align-items: center;
+    border-radius: 10px;
 }
 .ContenedorFutbol{
-    background-color: #319190;
+    background-color: #c6d316;
     width: 100%;
     height: auto;
     margin: 3%;
 }
 .ContenedorBasquet{
-    background-color: aqua;
+    background-color: #c6d316;
     width: 100%;
     height: auto;
     margin: 3%;
 }
 .ContenedorRugby{
-    background-color: rgb(255, 0, 242);
+    background-color: #c6d316;
     width: 100%;
     height: auto;
     margin: 3%;
 }
 .ContenedorFutbol div a img{
-
     width: 100%;
+    height: auto;
+}
+.ContenedorBasquet div a img{
+    width: 100%;
+    height: auto;
+}
+.ContenedorRugby div a img{
+    width: 100%;
+    height: auto;
 }
 
-.futbol1{}
+}
 
-}
-/*
-.basquet_1{
-    background-image: url(../Images/basquet\ 1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 35rem;
-    color: rgb(238, 230, 230);  
-    margin-bottom: 3rem; 
-}
-.Rugby_1{
-    background-image: url(../Images/lesion-rugby.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 35rem;
-    color: rgb(238, 230, 230);
-    margin-bottom: 3rem; 
-}
-.Futbol_2{
-    background-image: url(../Images/messi\ titular.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 35rem;
-    color: rgb(238, 230, 230);
-    margin-bottom: 3rem;
-}
-.basquet_2{
-    background-image: url(../Images/liga-femenina-basquet.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 35rem;
-    color: rgb(238, 230, 230);  
-    margin-bottom: 3rem; 
-}
-.Rugby_2{
-    background-image: url(../Images/irlanda-rugby.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 35rem;
-    color: rgb(238, 230, 230);
-    margin-bottom: 3rem; 
-}
-.Futbol_3{
-    background-image: url(../Images/velez\ .jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 35rem;
-    color: rgb(238, 230, 230);
-    margin-bottom: 3rem;
-}
-.basquet_3{
-    background-image: url(../Images/basquet\ 3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 35rem;
-    color: rgb(238, 230, 230);  
-    margin-bottom: 3rem; 
-}
-.Rugby_3{
-    background-image: url(../Images/australia\ rugby.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 35rem;
-    color: rgb(238, 230, 230);
-    margin-bottom: 3rem; 
-} */
+
 /* SECTION */
 /* FOOTER */
 footer{
