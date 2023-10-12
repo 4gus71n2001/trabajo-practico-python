@@ -230,7 +230,7 @@ body{
     height: auto;
 }
 
-}
+
 
 
 /* SECTION */
@@ -254,7 +254,7 @@ footer{
     }
     /* FOOTER */
 }
-@media only screen and (min-width: 890px ) {
+@media only screen and (min-width: 570px ) {
     /*HEADER*/
     .cabecera{
         display: flex;
@@ -279,8 +279,8 @@ footer{
    }
    .ingresar{
        margin: 3rem;
-       background-color:#ffefb5 ;
-       border-radius: 4px ;
+       background-color:#ffefb5;
+       border-radius: 4px;
        padding: 0.2rem;
        text-decoration: none;
        font-size: 144%;
@@ -305,40 +305,11 @@ footer{
 /*SECTION*/
 .noticias_deportes{
     display: grid;
-    gap: 2rem;
-    grid-template-areas: 'futbol1 ' ;
-}
-.futbol_1{
-    grid-area: futbol1;
-}
-.futbol_1{
-    grid-area: futbol2;
-}
-.futbol_3{
-    grid-area: futbol3;
-}
-.basquet_1{
-    grid-area: basquet1;
-}
-.basquet_2{
-    grid-area: basquet2;
-}
-.basquet_3{
-    grid-area: basquet3;
-}
-.rugby_1{
-    grid-area: rugby1;
-}
-.rugby_2{
-    grid-area: rugby2;
-}
-.rugby_3{
-    grid-area: rugby3;
 }
 /*SECTION*/
 
 
-} /* FINAL DEL MEDIA QUERIS 890px */
-@media only screen and (min-width: 1000px ) {
+} 
+@media only screen and (min-width: px ) {
 
 }
