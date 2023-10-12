@@ -15,6 +15,26 @@ body{
     padding: 0.7rem;
     border-radius: 10px;
 }
+#publicidad{
+    margin: 1rem;
+    background-color: #f5e29f;
+    background-size: cover;   
+    height: 4rem;
+}
+#informacion{
+    background-color: rgba(0, 0, 0, 0.274);
+}
+#informacion p,h1{
+    margin: 1rem;
+}
+#informacion span{
+    color: #319190;
+}
+.noticias_deportes{
+    background-color:#ffefb5 ;
+    
+}
+
 /* FUTBOL */
 .Fut_1{
     background-image: url(../Images/BOCABOCA.jpg);
@@ -149,30 +169,43 @@ body{
     margin: 0.7rem;
     text-decoration: none;
 }
-
 /* HEADER */
 /* SECTION */
 .noticias_deportes{
-    background-color:#ffefb5 ;
+    display: grid;
+    background-color: #ffc803;
+    margin: 1rem;
+    padding: 1rem;
+    grid-template-areas: 'contenedor1 contenedor2';
+}
+.contenedor1{
+    width: 120%;
+    grid-area: contenedor1;
+    margin: 0px;
+    display: grid;
+    background-color: red;
+}
+.contenedor2{
+    display: flex;
+    width: 80%;
+    grid-area: contenedor2;
+    margin: 0px;
+    display: grid;
+    background-color: rgb(89, 0, 255);
+    
+    align-items: center;
     
 }
-#publicidad{
-    margin: 1rem;
-    background-color: #f5e29f;
-    background-size: cover;   
-    height: 4rem;
+.minicontenedor1{
+    background-color: #319190;
+    margin:1rem;
+}
+.minicontenedor2{
+    background-color: aqua;
+    margin:1rem;
 }
 
-#informacion{
-    background-color: rgba(0, 0, 0, 0.274);
-}
-#informacion p,h1{
-    margin: 1rem;
-}
-#informacion span{
-    color: #319190;
-}
-.futbol_1{
+/* .futbol_1{
     background-image: url(../Images/boca\ libertadores.jpg);
     background-size: cover;
     background-position: center;
@@ -253,7 +286,7 @@ body{
     height: 35rem;
     color: rgb(238, 230, 230);
     margin-bottom: 3rem; 
-}
+} */
 /* SECTION */
 /* FOOTER */
 footer{
