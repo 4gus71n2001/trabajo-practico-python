@@ -168,7 +168,12 @@ body{
     margin: 0.6rem;
     text-decoration: none;
     border-right: 1px solid #beb6b6;
+    padding: 1%;
     
+}
+.menu a:visited, .menu a:link{
+color: black;
+
 }
 .menu p{
     display: inline;
@@ -369,7 +374,12 @@ footer{
     text-decoration: none;
     border-right: 1px solid #beb6b6;
     
+    
 }
+.menu a:visited, .menu a:link{
+    color: black;
+    
+    }
 .menu p{
     display: inline;
 }
@@ -577,12 +587,16 @@ footer{
    align-items: center;
    
 }
-.deportes a{
+.menu a{
 
    margin: 0.6rem;
    text-decoration: none;
    
 }
+.menu a:visited, .menu a:link{
+    color: black;
+    
+    }
 #contacto{
     color: white;
     background-color: rgb(92, 66, 66);
@@ -592,9 +606,9 @@ footer{
 .noticias_deportes{
     display: grid;
     grid-template-areas:
-    'futbol rugby' 
-    'futbol rugby'
-    'basquet basquet';
+    'futbol rugby basquet' 
+    'futbol rugby basquet'
+    'futbol rugby basquet';
     gap: 1rem;
     padding-top: 0!important;
     padding: 1rem;
