@@ -145,28 +145,37 @@ body{
     height:3rem;
     width: auto;
 }
-.ingresar{
+.ingresar , #contacto{
     margin: 1rem;
     background-color:#ffefb5 ;
     border-radius: 4px ;
     padding: 0.2rem;
     text-decoration: none;
 }
-.deportes{
-    display: flex;
+
+.deportes{  
     background-color: aliceblue;
     height: 3rem;
     align-items: center;
-    justify-content: space-between;
+    overflow: scroll;
 }
-.deportes a{
+.menu{
+    white-space: nowrap;
+   
+}
+.menu a{
+    display: inline-block;
     margin: 0.6rem;
     text-decoration: none;
     border-right: 1px solid #beb6b6;
-    padding: 4px;
+    
 }
-.contacto a{
-    border-right: none !important;
+.menu p{
+    display: inline;
+}
+#contacto{
+    color: white;
+    background-color: rgb(92, 66, 66);
 }
 /* HEADER */
 /* SECTION */
@@ -340,30 +349,37 @@ footer{
        height:4rem;
        width: auto;
    }
-   .ingresar{
-       margin: 1rem;
-       background-color:#ffefb5;
-       border-radius: 4px;
-       padding: 0.2rem;
-       text-decoration: none;
-       font-size: 144%;
-   }
+   .ingresar , #contacto{
+    margin: 1rem;
+    background-color:#ffefb5 ;
+    border-radius: 4px ;
+    padding: 0.2rem;
+    text-decoration: none;
+    }
    .deportes{
-       display: flex;
        background-color: aliceblue;
        height: 3rem;
        align-items: center;
-       justify-content: space-between;
        font-size: 120%;
+       overflow: scroll;
    }
-   .deportes a{
+   .menu a {
+    display: inline-block;
     margin: 0.6rem;
     text-decoration: none;
     border-right: 1px solid #beb6b6;
-    padding: 4px;
+    
 }
-.contacto a{
-    border-right: none !important;
+.menu p{
+    display: inline;
+}
+.menu{
+    white-space: nowrap;
+   
+}
+#contacto{
+    color: white;
+    background-color: rgb(92, 66, 66);
 }
 /*HEADER*/
 /*SECTION*/
@@ -543,28 +559,33 @@ footer{
     border-radius: 10px;
 }
 .logo img{
-   height:6rem;
+   height:5.5rem;
    width: auto;
 }
-.ingresar{
-   margin: 1rem;
-   background-color:#ffefb5 ;
-   border-radius: 4px ;
-   padding: 0.2rem;
-   text-decoration: none;
+.ingresar , #contacto{
+    margin: 1rem;
+    background-color:#ffefb5 ;
+    border-radius: 4px ;
+    padding: 0.2rem;
+    text-decoration: none;
 }
 .deportes{
    display: flex;
+   justify-content: space-around;
    background-color: aliceblue;
    height: 3rem;
    align-items: center;
-   justify-content: space-between;
+   
 }
 .deportes a{
 
    margin: 0.6rem;
    text-decoration: none;
    
+}
+#contacto{
+    color: white;
+    background-color: rgb(92, 66, 66);
 }
 /* HEADER */
 /* SECTION*/
