@@ -48,12 +48,29 @@ body{
     background-color: aliceblue;
     height: 3rem;
     align-items: center;
-    justify-content: space-between;
+    overflow: scroll;
 }
 .deportes a{
 
     margin: 0.7rem;
     text-decoration: none;
+}
+.menu{
+    white-space: nowrap;
+}
+.menu a{
+    display: inline-block;
+    margin: 0.6rem;
+    text-decoration: none;
+    padding: 1%;
+    
+}
+.menu a:visited,a:link{
+    color: black;
+    
+}
+.menu p{
+    display: inline;
 }
 main{
     display: grid;
@@ -61,109 +78,177 @@ main{
     gap: 20px;
     padding: 3rem;
 }
-.noticia_rugby{
-    flex: 1;
-    margin: 0;
-    padding: 20px; /* Añadir relleno para dar espacio interno a las secciones */
-    box-sizing: border-box;
-    
+
+  @media only screen and (max-width: 570px ) {
+    /* HEADER */
+    .cabecera{
+         display: flex;
+         margin:0;
+         background-color: #ffc803;
+         width: 100%;
+         height: 3rem;
+         justify-content: space-between;
+         align-items: center;
+    }
+    .logo{
+        display: flex;
+        margin: 1rem;
+        line-height: 0.5rem;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+    .logo p{
+         font-size: 1.5rem;
+         background-color: white;
+         padding: 0.7rem;
+         border-radius: 10px;
+    }
+    .logo img{
+        height:3rem;
+        width: auto;
+    }
+    .ingresar , #contacto{
+        margin: 1rem;
+        background-color:#ffefb5 ;
+        border-radius: 4px ;
+        padding: 0.2rem;
+        text-decoration: none;
+    }
+    .deportes{  
+        background-color: aliceblue;
+        height: 3rem;
+        align-items: center;
+        overflow: scroll;
+    }
+    .menu{
+        white-space: nowrap;
+       
+    }
+    .menu a{
+        display: inline-block;
+        margin: 0.6rem;
+        text-decoration: none;
+        padding: 1%;
+        
+    }
+    .menu a:visited, .menu a:link{
+    color: black!important;
+ 
+    }
+    .menu p{
+        display: inline;
+    }
+    #contacto{
+        color: white;
+        background-color: rgb(92, 66, 66);
+    }
+    /*HEADER*/
+    /*SECTION*/
+    .noticia_rugby{
+        flex: 1;
+        margin: 0;
+        padding: 20px; /* Añadir relleno para dar espacio interno a las secciones */
+        box-sizing: border-box;
+        
+    }
+    .rugby-pag{
+        width: 100%;
+        background-color: white;
+        margin-bottom: 3rem;
+        padding-bottom: 1rem;  
+    }
+    .primera-img img{
+        width: 100%;
+    }
+    .card {
+        display: flex; /* Usar flexbox para colocar elementos en línea */
+        width: 95%;
+        border-radius: 8px;
+        margin: 1rem;
+        margin-top: 30px;
+        -webkit-box-shadow: 0px 4px 11px 2px rgba(196, 190, 196, 1);
+        -moz-box-shadow: 0px 4px 11px 2px rgba(196, 190, 196, 1);
+        box-shadow: 0px 4px 11px 2px rgba(196, 190, 196, 1);
+        flex-grow: 1;
+        overflow: hidden; /* Para ocultar cualquier parte de la imagen que se desborde */
+    } 
+    .card-image {
+        width: 100%; /* Establecer el ancho de la imagen al 40% de la tarjeta */
+        height: 100%; /* Hacer que la imagen ocupe el 100% de la altura de la tarjeta */
+        border-radius: 8px 0 0 8px; /* Añadir bordes redondeados solo en el lado izquierdo */
+        flex-shrink: 0; /* Evitar que la imagen se encoja */
+    } 
+    .card-image img {
+        width: 100%;
+        height: 100%; /* Hacer que la imagen ocupe el 100% de la altura de su contenedor */
+        object-fit: cover; /* Ajustar la imagen para que cubra todo el contenedor sin distorsionarla */
+    } 
+    .card-info {
+        width: 60%; /* Establecer el ancho de la información al 60% de la tarjeta */
+        padding: 16px; /* Ajustar el espaciado de la información */
+    } 
+    .card-info h3 {
+        font-size: 18px;
+        margin: 0;
+    } 
+    .card-info a {
+        display: inline-block;
+        font-size: 14px;
+        text-decoration: none;
+        color: #007bff;
+    }
+      .card2 {
+        width: 95%;
+        /*border: 1px solid #ccc;*/
+        margin: 1rem;
+        border-radius: 8px;
+        -webkit-box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+        -moz-box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+        box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+        flex-grow: 1;   
+      }  
+      .card2 img {
+        width: 100%;
+        height: 50%;
+        border-radius: 8px;
+      }
+      .card-info2 {
+        margin-top: 16px;
+        padding: 4px;  
+      }
+      .card-info2 h3 {
+        font-size: 18px;
+        margin: 0;
+      } 
+      .card-info2 p {
+        font-size: 18px;
+        margin: 8px 0;
+      }
+      .card-info2 a {
+        display: inline-block;
+        font-size: 14px;
+        text-decoration: none;
+        color: #007bff;
+      }
+    /* SECTION */
+    /* FOOTER */
+footer{
+    background-color:rgb(38, 13, 13) ;   
+    }
+    .redes_sociales{
+        display: flex;
+        background-color: #ffc803;
+        align-items: center center;
+        justify-content: space-around;
+    }
+    footer img{
+         width: 2.8rem; 
+         margin-top: 20%;
+    }
+    .integrantes{
+        color: #ffefb5;
+        font-size: 10px;
+    }
+    /* FOOTER */
 }
-
-.rugby-pag{
-    width: 100%;
-    background-color: white;
-    margin-bottom: 3rem;
-    padding-bottom: 0.5rem;
-    
-}
-
-.primera-img img{
-    width: 100%;
-}
-.card {
-    display: flex; /* Usar flexbox para colocar elementos en línea */
-    width: 95%;
-    border-radius: 8px;
-    margin: 1rem;
-    margin-top: 30px;
-    -webkit-box-shadow: 0px 4px 11px 2px rgba(196, 190, 196, 1);
-    -moz-box-shadow: 0px 4px 11px 2px rgba(196, 190, 196, 1);
-    box-shadow: 0px 4px 11px 2px rgba(196, 190, 196, 1);
-    flex-grow: 1;
-    overflow: hidden; /* Para ocultar cualquier parte de la imagen que se desborde */
-}
-
-
-.card-image {
-    width: 40%; /* Establecer el ancho de la imagen al 40% de la tarjeta */
-    height: 100%; /* Hacer que la imagen ocupe el 100% de la altura de la tarjeta */
-    border-radius: 8px 0 0 8px; /* Añadir bordes redondeados solo en el lado izquierdo */
-    flex-shrink: 0; /* Evitar que la imagen se encoja */
-}
-
-.card-image img {
-    width: 100%;
-    height: 100%; /* Hacer que la imagen ocupe el 100% de la altura de su contenedor */
-    object-fit: cover; /* Ajustar la imagen para que cubra todo el contenedor sin distorsionarla */
-}
-
-
-.card-info {
-    width: 60%; /* Establecer el ancho de la información al 60% de la tarjeta */
-    padding: 16px; /* Ajustar el espaciado de la información */
-}
-
-.card-info h3 {
-    font-size: 18px;
-    margin: 0;
-}
-
-.card-info a {
-    display: inline-block;
-    font-size: 14px;
-    text-decoration: none;
-    color: #007bff;
-}
-
-
-    
-  .card2 {
-    width: 95%;
-    /*border: 1px solid #ccc;*/
-    margin: 1rem;
-    border-radius: 8px;
-    -webkit-box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
-    -moz-box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
-    box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
-    flex-grow: 1;
-    
-  }
-  
-  .card2 img {
-    width: 100%;
-    height: 50%;
-    border-radius: 8px;
-  }
-  
-  .card-info2 {
-    margin-top: 16px;
-    padding: 4px;
-    
-  }
-  
-  .card-info2 h3 {
-    font-size: 18px;
-    margin: 0;
-  }
-  
-  .card-info2 p {
-    font-size: 18px;
-    margin: 8px 0;
-  }
-  
-  .card-info2 a {
-    display: inline-block;
-    font-size: 14px;
-    text-decoration: none;
-    color: #007bff;
-  }
