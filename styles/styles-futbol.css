@@ -53,17 +53,29 @@ body a:visited, .menu a:link{
         line-height: 0.5rem;
         justify-content: space-between;
         align-items: center;
-        gap: 2rem;
+        gap: 1rem;
     }
     .logo p{
-         font-size: 1.5rem;
+         font-size: 0.6rem;
          background-color: white;
-         padding: 0.7rem;
+         padding: 0.5rem;
          border-radius: 10px;
+    }
+    
+    .contacto_ingresar a{
+        font-size: 0.6rem;
     }
     .logo img{
         height:3rem;
         width: auto;
+    }
+    .titulo_pag{
+        margin-top: 2rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 2rem;
     }
     .ingresar , #contacto{
         margin: 1rem;
