@@ -1,17 +1,269 @@
 @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto+Slab&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 *{
-    margin: 0;
-    padding: 0;
+   margin: 0;
+   padding: 0;
 }
-
 body{
-    font-size: 12px; 
-    font-family: 'Roboto Slab',Arial, Helvetica, sans-serif; 
+   font-family: 'Roboto Slab',Arial, Helvetica, sans-serif;
+   background-color: #f1eeee;
+   min-height: 100vh;
+}
+.logo p{
+   font-size: 1.5rem;
+   background-color: white;
+   padding: 0.7rem;
+   border-radius: 10px;
+}
+#informacion span{
+   color: #319190;
 }
 
+@media only screen and (max-width: 570px ) {
+  /* HEADER */
+.cabecera{
+  display: flex;
+  margin:0;
+  background-color: #ffc803;
+  width: 100%;
+  height: 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+ display: flex;
+ margin: 1rem;
+ line-height: 0.5rem;
+ justify-content: space-between;
+ align-items: center;
+ gap: 2rem;
+}
+.logo p{
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 0.7rem;
+  border-radius: 10px;
+}
+.logo img{
+ height:3rem;
+ width: auto;
+}
+.ingresar , #contacto{
+ margin: 1rem;
+ background-color:#ffefb5 ;
+ border-radius: 4px ;
+ padding: 0.2rem;
+ text-decoration: none;
+}
 
+.deportes{  
+ display: flex;
+ background-color: aliceblue;
+ height: 3rem;
+ align-items: center;
+ overflow: scroll;
+}
+.menu{
+ white-space: nowrap;
+
+}
+.menu a{
+ display: inline-block;
+ margin: 0.6rem;
+ text-decoration: none;
+ 
+ padding: 1%;
+ 
+}
+.menu a:visited, .menu a:link{
+color: black;
+
+}
+.menu p{
+ display: inline;
+}
+#contacto{
+ color: white;
+ background-color: rgb(92, 66, 66);
+}
+/* HEADER */
+  .menu a:visited, .menu a:link{
+    color: black;
+    
+    }
+  .menu p{
+    display: inline;
+  }
+  .menu{
+    white-space: nowrap;
+   
+  }
+  .flex{
+      display: flex;
+      flex-direction: column;
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      background-color: #ffc803;
+      margin: 0;
+      width: 100%;
+      
+    }
+    .caja {
+      display: flex;
+      justify-content: space-between;
+      padding: 2%;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 2%;
+      border-radius: 8px;
+      -webkit-box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+      -moz-box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+      box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+    }
+    .titulo {
+      flex-direction: column;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      margin: 1rem;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .caja-vertical {
+      display: flex;
+      margin: 2% 0%;
+      flex-direction: column;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  
+    .card2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 95%;
+      height: 15rem;
+      margin: 1rem;
+      border-radius: 8px;
+      -webkit-box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+      -moz-box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+      box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+      flex-grow: 1;
+      
+      
+    }
+  
+    .card2 > div {
+      text-align: center;
+  
+    }
+    a {
+      text-decoration: none;
+    }
+    .contenedor1{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 3%;
+      border-radius: 10px;
+      border-width: 1px;
+      border-style: ridge;
+  }
+    /* FOOTER */
+footer{
+  background-color:rgb(38, 13, 13) ;   
+  }
+  .redes_sociales{
+      display: flex;
+      background-color: #ffc803;
+      align-items: center center;
+      justify-content: space-around;
+  }
+  footer img{
+       width: 2.8rem; 
+       margin-top: 20%;
+  }
+  .integrantes{
+      color: #ffefb5;
+      font-size: 10px;
+  }
+  /* FOOTER */
+  }
+
+
+  @media (min-width: 571px ) and (max-width: 1045px ) {
+    /*HEADER*/
+    .cabecera{
+        display: flex;
+        margin:0;
+        background-color: #ffc803;
+        width: 100%;
+        height: 4rem;
+        justify-content: space-between;
+        align-items: center;
+   }
+   .logo{
+       display: flex;
+       margin: 1rem;
+       line-height: 0.5rem;
+       justify-content: space-between;
+       align-items: center;
+       gap: 2rem;
+   }
+   .logo img{
+       height:4rem;
+       width: auto;
+   }
+   .ingresar , #contacto{
+        margin: 1rem;
+        background-color:#ffefb5 ;
+        border-radius: 4px ;
+        padding: 0.2rem;
+        text-decoration: none;
+    }
+   .deportes{
+       display: flex;
+       background-color: aliceblue;
+       height: 3rem;
+       align-items: center;
+       font-size: 120%;
+       overflow: scroll;
+   }
+   .menu a {
+        display: inline-block;
+        margin: 0.6rem;
+        text-decoration: none;
+        padding: 1%; 
+}
+.menu a:visited, .menu a:link{
+    color: black;
+    
+    }
+.menu p{
+    display: inline;
+}
+.menu{
+    white-space: nowrap;
+   
+}
+#contacto{
+    color: white;
+    background-color: rgb(92, 66, 66);
+}
+/*HEADER*/
+.menu a:visited, .menu a:link{
+  color: black;
+  
+  }
+.menu p{
+  display: inline;
+}
+.menu{
+  white-space: nowrap;
+ 
+}
 .flex{
     display: flex;
     flex-direction: column;
@@ -23,8 +275,6 @@ body{
     margin: 0;
     width: 100%;
     
-   
-
   }
   .caja {
     display: flex;
@@ -39,7 +289,9 @@ body{
     box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
   }
   .titulo {
+    flex-direction: row;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     margin: 1rem;
     padding-left: 10%;
@@ -52,16 +304,14 @@ body{
     padding-left: 10%;
     padding-right: 10%;
   }
-  p {
-    font-size: 1rem;
-  }
+
   .card2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 95%;
-    height: 15rem;
+    height: 12rem;
     margin: 1rem;
     border-radius: 8px;
     -webkit-box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
@@ -69,8 +319,208 @@ body{
     box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
     flex-grow: 1;
     
+    
+  }
+
+  .card2 > div {
+    text-align: center;
+
   }
   a {
-    font-size: 1.2rem;
     text-decoration: none;
   }
+  .contenedor1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%; 
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: ridge;
+}
+  /* FOOTER */
+footer{
+  background-color:rgb(38, 13, 13) ;   
+  }
+  .redes_sociales{
+      display: flex;
+      background-color: #ffc803;
+      align-items: center center;
+      justify-content: space-around;
+  }
+  footer img{
+       width: 2.8rem; 
+       margin-top: 20%;
+  }
+  .integrantes{
+      color: #ffefb5;
+      font-size: 10px;
+  }
+  /* FOOTER */
+}
+
+@media (min-width: 1046px ) {
+  /* HEADER */
+  .cabecera{
+      display: flex;
+      margin:1;
+      background-color: #ffc803;
+      width: 100%;
+      height: 5rem;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .logo{
+     display: flex;
+     margin: 1rem;
+     line-height: 0.5rem;
+     justify-content: space-between;
+     align-items: center;
+     gap: 2rem;
+  }
+  .logo p{
+      font-size: 1.5rem;
+      background-color: white;
+      padding: 0.7rem;
+      border-radius: 10px;
+  }
+  .logo img{
+     height:5.5rem;
+     width: auto;
+  }
+  .ingresar , #contacto{
+      margin: 1rem;
+      background-color:#ffefb5 ;
+      border-radius: 4px ;
+      padding: 0.2rem;
+      text-decoration: none;
+  }
+  .deportes{
+     display: flex;
+     justify-content: space-around;
+     background-color: aliceblue;
+     height: 3rem;
+     align-items: center;
+     
+  }
+  .menu a{
+  
+     margin: 0.6rem;
+     text-decoration: none;
+     
+  }
+  .menu p{
+      display: inline;
+  }
+  .menu a:visited, .menu a:link{
+      color: black;
+      
+      }
+  #contacto{
+      color: white;
+      background-color: rgb(92, 66, 66);
+  }
+  /* HEADER */
+  menu a:visited, .menu a:link{
+    color: black;
+    
+    }
+  .menu p{
+    display: inline;
+  }
+  .menu{
+    white-space: nowrap;
+   
+  }
+  .flex{
+      display: flex;
+      flex-direction: column;
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      background-color: #ffc803;
+      margin: 0;
+      width: 100%;
+      
+    }
+    .caja {
+      display: flex;
+      justify-content: space-between;
+      padding: 2%;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 2%;
+      border-radius: 8px;
+      -webkit-box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+      -moz-box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+      box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+    }
+    .titulo {
+      flex-direction: row;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      margin: 1rem;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .caja-vertical {
+      display: flex;
+      margin: 2% 0%;
+      flex-direction: column;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  
+    .card2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 95%;
+      height: 12rem;
+      margin: 1rem;
+      border-radius: 8px;
+      -webkit-box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+      -moz-box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+      box-shadow: 0px 4px 11px 2px rgba(196,190,196,1);
+      flex-grow: 1;
+      
+      
+    }
+  
+    .card2 > div {
+      text-align: center;
+  
+    }
+    a {
+      text-decoration: none;
+    }
+    .contenedor1{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 3%; 
+      border-radius: 10px;
+      border-width: 1px;
+      border-style: ridge;
+  }
+  /* FOOTER */
+footer{
+  background-color:rgb(38, 13, 13) ;   
+  }
+  .redes_sociales{
+      display: flex;
+      background-color: #ffc803;
+      align-items: center center;
+      justify-content: space-around;
+  }
+  footer img{
+       width: 2.8rem; 
+       margin-top: 20%;
+  }
+  .integrantes{
+      color: #ffefb5;
+      font-size: 10px;
+  }
+  /* FOOTER */
+}
