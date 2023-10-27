@@ -33,8 +33,8 @@ uno. Creemos que finalmente quedó estéticamente bien y utilizamos una paleta d
 suaves, y agradables a la visita. El formulario fue diseñado tomando como referencia a el
 formulario de la página OLE.
 Referencia:
-Agustin Mari : INICIO
+Agustin Mari : INICIO e INGRESAR
 Candela Fernández: FÚTBOL
 Javier Sanabria: BASQUET
-Matias Parma: RUGBY
+Matias Parma: RUGBY 
 Fran Fiala: Formulario de Contacto.
