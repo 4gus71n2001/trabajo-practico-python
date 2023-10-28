@@ -3,10 +3,6 @@
 
 github pages host: https://4gus71n2001.github.io/trabajo-practico-python
 
-informacion acerca del tp:
-
-
-
 Trabajo práctico codo a codo
 
 problemas encontrados: 
