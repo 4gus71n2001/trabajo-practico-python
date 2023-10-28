@@ -5,7 +5,13 @@ github pages host: https://4gus71n2001.github.io/trabajo-practico-python
 
 informacion acerca del tp:
 
+
+
 Trabajo práctico codo a codo
+
+problemas encontrados: 
+no llegamos con el tiempo a realizar la validacion de java ni poner una api, ademas del timepo tuvinmos dificultades con estas dos y se nos hizo tarde.
+
 Planificación del trabajo:
 Se habló en un principio de hacer una página de noticias de deportes, pero no sabíamos
 bien el diseño, así que decidimos tomar como referencia a la página tan conocida como
