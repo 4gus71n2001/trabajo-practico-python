@@ -34,6 +34,7 @@ fueron probados en diferentes branch de GitHub. Hasta que finalmente nos decidim
 uno. Creemos que finalmente quedó estéticamente bien y utilizamos una paleta de colores
 suaves, y agradables a la visita. El formulario fue diseñado tomando como referencia a el
 formulario de la página OLE.
+la pagina ingresar tampoco es responsive.
 Referencia:
 Agustin Mari : INICIO e INGRESAR
 Candela Fernández: FÚTBOL
