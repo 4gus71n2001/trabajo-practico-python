@@ -3,9 +3,11 @@
 
 github pages host: https://4gus71n2001.github.io/trabajo-practico-python
 
-informacion acerca del tp:
-
 Trabajo práctico codo a codo
+
+problemas encontrados: 
+no llegamos con el tiempo a realizar la validacion de java ni poner una api, ademas del timepo tuvinmos dificultades con estas dos y se nos hizo tarde.
+
 Planificación del trabajo:
 Se habló en un principio de hacer una página de noticias de deportes, pero no sabíamos
 bien el diseño, así que decidimos tomar como referencia a la página tan conocida como
@@ -32,6 +34,7 @@ fueron probados en diferentes branch de GitHub. Hasta que finalmente nos decidim
 uno. Creemos que finalmente quedó estéticamente bien y utilizamos una paleta de colores
 suaves, y agradables a la visita. El formulario fue diseñado tomando como referencia a el
 formulario de la página OLE.
+la pagina ingresar tampoco es responsive.
 Referencia:
 Agustin Mari : INICIO e INGRESAR
 Candela Fernández: FÚTBOL
